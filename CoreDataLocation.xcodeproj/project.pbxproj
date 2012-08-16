@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7554F23E153E976D009916B0 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7554F23D153E976D009916B0 /* Event.m */; };
+		7554F244153E99DE009916B0 /* CoreDataLocation.CDBStore in Resources */ = {isa = PBXBuildFile; fileRef = 7554F243153E99DE009916B0 /* CoreDataLocation.CDBStore */; };
+		7554F250153EAF94009916B0 /* CoreDataFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7554F24F153EAF94009916B0 /* CoreDataFacade.m */; };
 		758021D9153E5DEE00036E31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758021D8153E5DEE00036E31 /* UIKit.framework */; };
 		758021DB153E5DEE00036E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758021DA153E5DEE00036E31 /* Foundation.framework */; };
 		758021DD153E5DEE00036E31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758021DC153E5DEE00036E31 /* CoreGraphics.framework */; };
@@ -14,23 +17,32 @@
 		758021E5153E5DEE00036E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758021E4153E5DEE00036E31 /* main.m */; };
 		758021E9153E5DEE00036E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758021E8153E5DEE00036E31 /* AppDelegate.m */; };
 		758021EC153E5DEE00036E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758021EB153E5DEE00036E31 /* ViewController.m */; };
-		758021EF153E5DEE00036E31 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758021ED153E5DEE00036E31 /* ViewController.xib */; };
+		758021F8153E5E3C00036E31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758021F7153E5E3C00036E31 /* CoreData.framework */; };
+		758021FE153E5E6D00036E31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758021FD153E5E6D00036E31 /* CoreLocation.framework */; };
+		75802202153E5F0100036E31 /* CoreDataLocation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75802200153E5F0100036E31 /* CoreDataLocation.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7554F23C153E976D009916B0 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		7554F23D153E976D009916B0 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		7554F243153E99DE009916B0 /* CoreDataLocation.CDBStore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreDataLocation.CDBStore; sourceTree = "<group>"; };
+		7554F24E153EAF94009916B0 /* CoreDataFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataFacade.h; sourceTree = "<group>"; };
+		7554F24F153EAF94009916B0 /* CoreDataFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataFacade.m; sourceTree = "<group>"; };
 		758021D4153E5DEE00036E31 /* CoreDataLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758021D8153E5DEE00036E31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		758021DA153E5DEE00036E31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		758021DC153E5DEE00036E31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		758021E0153E5DEE00036E31 /* CoreDataLocation-Info.plist */ = {isa = PBXFileReference; path = "CoreDataLocation-Info.plist"; sourceTree = "<group>"; };
+		758021E0153E5DEE00036E31 /* CoreDataLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataLocation-Info.plist"; sourceTree = "<group>"; };
 		758021E2153E5DEE00036E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		758021E4153E5DEE00036E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		758021E6153E5DEE00036E31 /* CoreDataLocation-Prefix.pch */ = {isa = PBXFileReference; path = "CoreDataLocation-Prefix.pch"; sourceTree = "<group>"; };
-		758021E7153E5DEE00036E31 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		758021E6153E5DEE00036E31 /* CoreDataLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataLocation-Prefix.pch"; sourceTree = "<group>"; };
+		758021E7153E5DEE00036E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		758021E8153E5DEE00036E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		758021EA153E5DEE00036E31 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		758021EA153E5DEE00036E31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		758021EB153E5DEE00036E31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		758021EE153E5DEE00036E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		758021F7153E5E3C00036E31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		758021FD153E5E6D00036E31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75802201153E5F0100036E31 /* CoreDataLocation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLocation.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,8 @@
 				758021D9153E5DEE00036E31 /* UIKit.framework in Frameworks */,
 				758021DB153E5DEE00036E31 /* Foundation.framework in Frameworks */,
 				758021DD153E5DEE00036E31 /* CoreGraphics.framework in Frameworks */,
+				758021F8153E5E3C00036E31 /* CoreData.framework in Frameworks */,
+				758021FE153E5E6D00036E31 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,8 @@
 		758021D7153E5DEE00036E31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				758021FD153E5E6D00036E31 /* CoreLocation.framework */,
+				758021F7153E5E3C00036E31 /* CoreData.framework */,
 				758021D8153E5DEE00036E31 /* UIKit.framework */,
 				758021DA153E5DEE00036E31 /* Foundation.framework */,
 				758021DC153E5DEE00036E31 /* CoreGraphics.framework */,
@@ -81,8 +97,13 @@
 				758021E8153E5DEE00036E31 /* AppDelegate.m */,
 				758021EA153E5DEE00036E31 /* ViewController.h */,
 				758021EB153E5DEE00036E31 /* ViewController.m */,
-				758021ED153E5DEE00036E31 /* ViewController.xib */,
+				7554F24E153EAF94009916B0 /* CoreDataFacade.h */,
+				7554F24F153EAF94009916B0 /* CoreDataFacade.m */,
 				758021DF153E5DEE00036E31 /* Supporting Files */,
+				7554F23C153E976D009916B0 /* Event.h */,
+				7554F23D153E976D009916B0 /* Event.m */,
+				75802200153E5F0100036E31 /* CoreDataLocation.xcdatamodeld */,
+				7554F243153E99DE009916B0 /* CoreDataLocation.CDBStore */,
 			);
 			path = CoreDataLocation;
 			sourceTree = "<group>";
@@ -149,7 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				758021E3153E5DEE00036E31 /* InfoPlist.strings in Resources */,
-				758021EF153E5DEE00036E31 /* ViewController.xib in Resources */,
+				7554F244153E99DE009916B0 /* CoreDataLocation.CDBStore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +184,9 @@
 				758021E5153E5DEE00036E31 /* main.m in Sources */,
 				758021E9153E5DEE00036E31 /* AppDelegate.m in Sources */,
 				758021EC153E5DEE00036E31 /* ViewController.m in Sources */,
+				75802202153E5F0100036E31 /* CoreDataLocation.xcdatamodeld in Sources */,
+				7554F23E153E976D009916B0 /* Event.m in Sources */,
+				7554F250153EAF94009916B0 /* CoreDataFacade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +201,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		758021ED153E5DEE00036E31 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				758021EE153E5DEE00036E31 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -193,6 +209,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Yang (J8SU78AGVN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -208,6 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "F54091BC-60CC-461D-AEC5-15F931064187";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -217,6 +235,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Yang (J8SU78AGVN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -226,6 +245,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F54091BC-60CC-461D-AEC5-15F931064187";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -234,10 +254,16 @@
 		758021F3153E5DEE00036E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataLocation/CoreDataLocation-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataLocation/CoreDataLocation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -245,10 +271,16 @@
 		758021F4153E5DEE00036E31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataLocation/CoreDataLocation-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataLocation/CoreDataLocation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,8 +304,22 @@
 				758021F4153E5DEE00036E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75802200153E5F0100036E31 /* CoreDataLocation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75802201153E5F0100036E31 /* CoreDataLocation.xcdatamodel */,
+			);
+			currentVersion = 75802201153E5F0100036E31 /* CoreDataLocation.xcdatamodel */;
+			path = CoreDataLocation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 758021CB153E5DED00036E31 /* Project object */;
 }
